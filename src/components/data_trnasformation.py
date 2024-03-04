@@ -40,7 +40,7 @@ class DataTransformation:
                 "lunch",
                 "test_preparation_course",
             ]
-
+            # Create the pypeline for neumarical columns
             num_pipeline= Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="median")),
@@ -48,7 +48,7 @@ class DataTransformation:
 
                 ]
             )
-
+            # Create the pypeline for catacarical columns
             cat_pipeline=Pipeline(
 
                 steps=[
