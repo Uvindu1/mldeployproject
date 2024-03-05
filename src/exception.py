@@ -2,6 +2,7 @@
 for exception haddling perpes
 '''
 import sys
+import  src.logger
 
 def error_massage_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
