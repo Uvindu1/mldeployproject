@@ -1,4 +1,4 @@
-this python config file is use to tell the Instence "What is the entry point in applycation"
+this python config file is use to tell the Elastic Beanstalk Instence "What is the entry point in applycation"
 
             "aws:elasticbeanstalk:container:python"   (There using python we can use the Docar, but defferent process)
             "WSGIPath: application:application"   (application is the application.py app name)
